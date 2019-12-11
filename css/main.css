@@ -28,7 +28,7 @@ article {
   display: block;
   padding: 0 1rem;
   max-width: 45em;
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
 }
 
 article h1 {
@@ -62,7 +62,7 @@ blockquote {
   font-size: 1.125rem;
 }
 
-ol {
+article ol {
   padding: 0 0 0 1rem;
   margin: 0 0 1.3rem;
 }
@@ -73,7 +73,7 @@ ol {
 }
 
 @media only screen and (min-width: 38em) {
-/* 320 or 400 */
+  /* 320 or 400 */
 
   html {
     line-height: 1.4;
@@ -118,52 +118,52 @@ ol {
 }
 
 @media only screen and (min-width: 60em) {
-/* 960 */
+  /* 960 */
 
   html {
     line-height: 1.5;
     font-size: 120%;
-    }
+  }
 
-    article header {
-      border-bottom: 1px solid #999;
-      margin-bottom: 1.5rem;
-    }
+  article header {
+    border-bottom: 1px solid #999;
+    margin-bottom: 1.5rem;
+  }
 
-    article header p {
-      font-style: italic;
-      margin: 0 0 1.5rem;
-    }
+  article header p {
+    font-style: italic;
+    margin: 0 0 1.5rem;
+  }
 
-    article p {
-      margin: 0 0 1.5rem;
-    }
+  article p {
+    margin: 0 0 1.5rem;
+  }
 
-    article > p:last-child {
-      border-bottom: 1px solid #999;
-      padding: 0 0 1.5rem;
-    }
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+    padding: 0 0 1.5rem;
+  }
 
-    blockquote {
-      margin: 0;
-      max-width: 24em;
-      color: #555;
-      font-size: 1.125rem;
-    }
+  blockquote {
+    margin: 0;
+    max-width: 24em;
+    color: #555;
+    font-size: 1.125rem;
+  }
 
-    ol {
-      padding: 0 0 0 1rem;
-      margin: 0 0 1.5rem;
-    }
+  ol {
+    padding: 0 0 0 1rem;
+    margin: 0 0 1.5rem;
+  }
 
-    .quote {
-      color: #999;
-    }
+  .quote {
+    color: #999;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
-/* 1440 */
+  /* 1440 */
 
   html {
     font-size: 130%;
